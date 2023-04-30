@@ -1,7 +1,7 @@
-import mailIcon from '../../assets/mailIcon.png'
-import phoneIcon from '../../assets/phoneIcon.png'
-import addressIcon from '../../assets/addressIcon.png'
-import linkIcon from '../../assets/linkIcon.png'
+import mailIcon from '/mailIcon.png'
+import phoneIcon from '/phoneIcon.png'
+import addressIcon from '/addressIcon.png'
+import linkIcon from '/linkIcon.png'
 
 function Contact() {
     return (

@@ -15,6 +15,7 @@ import TitleFr from "./components/French/TitleFr";
 import WorkExpEn from "./components/English/WorkExpEn";
 import WorkExpFr from "./components/French/WorkExpFr";
 import ButtonSwitch from "./components/ButtonSwitch";
+import Contact from "./components/Contact"
 
 
-export const imports = { HobbiesEn,HobbiesFr, HardSkillsEn, HardSkillsFr,EducationEn,EducationFr,LanguagesEn, LanguagesFr,NavbarEn, NavbarFr,SoftSkillsEn,SoftSkillsFr,ButtonSwitch,TitleEn, TitleFr,WorkExpEn,WorkExpFr, }
+export const imports = { HobbiesEn, HobbiesFr, HardSkillsEn, HardSkillsFr,EducationEn,EducationFr,LanguagesEn, LanguagesFr,NavbarEn, NavbarFr,SoftSkillsEn,SoftSkillsFr,ButtonSwitch,TitleEn, TitleFr,WorkExpEn,WorkExpFr, Contact}
