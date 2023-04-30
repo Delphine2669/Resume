@@ -26,12 +26,18 @@ function EducationEn() {
                     <li >Universite Lumière Lyon II</li></div>
                 <li className="year llce">2017</li>
                 <div className="couseBlock">
-                    <li className="course">BA English studies, Translation Literature and History</li>
+                    <li>
+                        <span className="course">BA English studies, Translation Literature and History
+                        </span>
+                        </li>
                     <li>Universite Grenoble Alpes</li></div>
                 <li className="year capa">2010</li>
                 <div className="couseBlock">
-                    <li className="course">Certification in law &lsquo;capacite en droit&lsquo;</li>
-                    <li> Universite Lumière Lyon II</li></div>
+                    <li >
+                        <span className="course">Certification in law &lsquo;capacite en droit&lsquo;</span>
+             </li>
+                    <span> Universite Lumière Lyon II</span>
+                    </div>
             </ul>
         </div>
     );

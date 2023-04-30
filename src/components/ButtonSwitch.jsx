@@ -10,7 +10,7 @@ function ButtonSwitch({french, english}) {
 }
 
 ButtonSwitch.propTypes ={
-   french: PropTypes.string.isRequired,
-   english:PropTypes.string.isRequired}
+   french: PropTypes.func.isRequired,
+   english:PropTypes.func.isRequired}
 
 export default ButtonSwitch

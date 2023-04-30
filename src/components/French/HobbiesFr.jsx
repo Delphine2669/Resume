@@ -17,10 +17,10 @@ function HobbiesFr({ hobbies, photography, travel, america, journalism }) {
 }
 HobbiesFr.propTypes ={
     hobbies: PropTypes.string.isRequired,
-    photography: PropTypes.string.isRequired,
+    photography: PropTypes.node.isRequired,
    travel: PropTypes.string.isRequired,
     america: PropTypes.string.isRequired,
-   journalism: PropTypes.string.isRequired
+   journalism: PropTypes.node.isRequired
   }
 
 export default HobbiesFr
