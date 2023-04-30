@@ -1,7 +1,7 @@
 
 function NavbarEn() {
     return (
-        <nav>
+        <nav className="overline">
             <ul className='navBarUl'>
                 <li><a href='#Education'>Education</a></li>
                 <li><a href="#WorkExp">Work Experience</a></li>

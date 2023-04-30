@@ -50,7 +50,9 @@ function App() {
     <>
       {language === 'fr' ? (<>
         <NavbarFr />
+        <br/>
         <ButtonSwitch french={handleFrenchClick} english={handleEnglishClick} />
+        <br/>
         <TitleFr />
         <SoftSkillsFr />
         <HardSkillsFr />
@@ -58,12 +60,16 @@ function App() {
         <WorkExpFr />
         <LanguagesFr />
         <HobbiesFr {...hobbiesListFr} />
-        <Contact />
+        <Contact /> <br/> <br/>
+        <ButtonSwitch french={handleFrenchClick} english={handleEnglishClick} /><br/> <br/>
+        <NavbarFr />
 
       </>) : (
         <>
           <NavbarEn />
+          <br/>
           <ButtonSwitch english={handleEnglishClick} french={handleFrenchClick} />
+          <br/>
           <TitleEn />
           <SoftSkillsEn />
           <HardSkillsEn />
@@ -71,7 +77,11 @@ function App() {
           <WorkExpEn />
           <LanguagesEn />
           <HobbiesEn {...hobbiesListEn} />
-          <Contact />
+          <Contact />    <br/>
+          <br/>
+          <ButtonSwitch english={handleEnglishClick} french={handleFrenchClick} />
+          <br/> <br/>
+          <NavbarEn />
 
         </>
       )}

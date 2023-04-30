@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function EcoSwitchDemo({ width, height }) {
     return (
-        <video src="Videos/Demo-EcoSwitch.mov" width={width} height={height} controls
+        <video src="/Demo-EcoSwitch.mov" width={width} height={height} controls
         >  Your browser does not support the video tag.</video>
     )
 }

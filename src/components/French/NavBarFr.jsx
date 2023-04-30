@@ -2,7 +2,7 @@
 
 function NavbarFr() {
     return (
-        <nav>
+        <nav className="overline">
             <ul className='navBarUl'>
                 <li><a href='#Education'>Education</a></li>
                 <li><a href="#WorkExp">Experiences Professionnelles</a></li>
