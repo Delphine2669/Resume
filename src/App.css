@@ -1,0 +1,314 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #000000cf;
+}
+
+
+/* taking bullet out*/
+li {
+  list-style: none;
+}
+
+/* format Navbar*/
+.navBarUl {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navBarUl a {
+  color: #280309;
+}
+
+.navBarUl a:hover {
+  color: #E89F3C;
+  filter: drop-shadow(0em 0 5em #E89F3C);
+}
+
+.buttonFrench,
+.buttonEnglish {
+  background-color: #E89F3C;
+}
+
+.buttonEnglish:hover,
+.buttonFrench:hover {
+  background-color: #BB4828;
+  filter: drop-shadow(0 0 3em #BB4828);
+}
+
+/* styling Sections Title*/
+.overline {
+  display: block;
+  border-top: 2px dotted rgb(0, 224, 224);
+  border-bottom: 2px dotted rgb(0, 224, 224);
+  padding: 1px;
+  margin-top: 0;
+}
+
+
+/* formatting Educ section*/
+.education-list {
+  display: grid;
+  grid-template-columns: 0.9fr 2.2fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+
+.year {
+  background-color: #ccc;
+  border-radius: 80px;
+  padding: 12px;
+  font-weight: 700;
+  grid-row: 2fr;
+  grid-column: 1fr;
+  color: aliceblue
+}
+
+.encours {
+  background-color: #280309;
+}
+
+.afpE {
+  background-color: #600917;
+}
+
+.afp {
+  background-color: #600917;
+}
+
+.master {
+  background-color: #BB4828;
+}
+
+.llce {
+  background-color: #E89F3C;
+}
+
+.capa {
+  background-color: #F9D604;
+  color: rgba(41, 37, 19, 0.924);
+}
+
+.course {
+  font-weight: 700;
+  text-align: left;
+  /* margin-left: 2rem; */
+}
+
+.courseBlock {
+  grid-row: 1fr;
+}
+
+/* End of Formattings Educ Section*/
+
+/* Formatting contact Section*/
+
+.contactTable {
+  margin: auto;
+}
+
+.icons {
+  max-width: 30%;
+}
+
+/* a:hover.contactLinks {
+  color: #BB4828
+}
+
+a:active.contactLinks {
+  color: #F9D604
+} */
+
+/* End of formatting contact Section*/
+
+/* Formatting languages Section*/
+.languagesList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.langListli {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: larger;
+
+}
+
+.squareRow {
+  border-radius: 10px;
+}
+
+.square1 {
+  background-color: #FFF5BD;
+}
+
+.square2 {
+  background-color: #F9D604;
+}
+
+.square3 {
+  background-color: #E89F3C;
+}
+
+.square4 {
+  background-color: #BB4828;
+}
+
+.square5 {
+  background-color: #600917;
+}
+
+.square1,
+.square2,
+.square3,
+.square4,
+.square5 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: -10px;
+  border: 1.3px dotted #280309;
+  border-radius: 2.5px;
+  margin-left: 10px;
+}
+
+/*Formatting HardSkills */
+.skill {
+  font-weight: bold;
+}
+
+.HSUl a {
+  color: #600917;
+}
+
+.HSUl a:hover {
+  filter: drop-shadow(0 0 2em #E89F3C);
+  color: #e89f3c;
+}
+
+/*
+
+.HCS:hover .dDSection {
+  display: block;
+}
+
+
+
+*/
+.eSSection{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.eSItemIcon{
+  max-width: 30%;
+  margin-top: 180px;
+}
+.lESection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lEItemIcon {
+  max-width: 30%;
+  margin-top: 180px;
+}
+
+.vidIcons{
+  max-width: 60%; 
+   margin-top: 180px;
+}
+/*end Formatting HardSkills*/
+
+
+/*Formatting Work experience*/
+
+.workE-list {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+  grid-template-rows: repeat(3, 2fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    "slcContent slcDate"
+    "cmeContent cmeDate"
+    "infoContent infoDate"
+
+}
+
+.slcContent {
+  grid-area: slcContent;
+
+
+}
+
+.slcDate {
+  background-color: #280309;
+  grid-area: slcDate;
+}
+
+.cmeContent {
+  grid-area: cmeContent;
+}
+
+.cmeDate {
+  background-color: #600917;
+  grid-area: cmeDate;
+}
+
+.infoContent {
+  grid-area: infoContent;
+}
+
+.infoDate {
+  background-color: #BB4828;
+  grid-area: infoDate;
+}
+
+.jobDate {
+  color: aliceblue;
+  font-weight: 700;
+  border-radius: 40px;
+  padding: 12px;
+  margin: auto;
+}
+
+.subjob {
+  font-weight:
+    600;
+  margin-left: 20px;
+}
+
+
+.titleJobName {
+  text-align: right;
+  font-size: large;
+}
+
+.job-title {
+  font-weight: bold;
+  text-align: left;
+}
+
+
+/*End frmatting Work experience*/
+.hobbiesUl a {
+  color: #600917;
+}
+
+.hobbiesUl a:hover {
+  filter: drop-shadow(0 0 2em #E89F3C);
+  color: #e89f3c;
+}
+
+.contactTable a {
+  color: #600917;
+}
+
+.contactTable a:hover {
+  filter: drop-shadow(0 0 2em #E89F3C);
+  color: #e89f3c;
+}
