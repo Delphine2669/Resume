@@ -16,14 +16,14 @@ function HardSkillsFr() {
                 <li className="skill">Swift / SwiftUI</li> <br />
                 <li> Projet 1: Realisation d&apos;une application iphone, visant a aider les particuliers dans leur transition energetique</li>
                 <div className="eSSection">
-                <li className="eSItemIcon"><img src="src/assets/EcoSwitch-icon.png" alt="icone app LocalEat" className="vidIcons"></img></li>
+                <li className="eSItemIcon"><img src="/EcoSwitchIcon.png" alt="icone app LocalEat" className="vidIcons"></img></li>
                     <li className="eSItemVid">
                         <EcoSwitchDemo width="200" height="600" className="EcoSwitchVid" />
 
                         </li></div><br/>
                 <li>Projet 2: Realisation d&apos;une application iphone, visant a aider les producteurs bio et locaux a rencontrer leurs clientele et mieux se remunerer. Aider les clients a trouver les producteurs pres de chez eux.</li>
                 <div className="lESection">
-                    <li className="lEItemIcon"><img src="src/assets/LocalEat-icon.png" alt="icone app LocalEat" className="vidIcons"></img></li>
+                    <li className="lEItemIcon"><img src="/LocalEatIcon.png" alt="icone app LocalEat" className="vidIcons"></img></li>
                     <li className="lEItemVid">
 
                         <LocalEatDemo width="200" height="600" className="localEVid" />

@@ -9,7 +9,7 @@ function Contact() {
             <span className="overline">
                 <h2>Contact</h2></span>
             <table className='contactTable'>
-
+<tbody>
                 <tr>
                     <td> <img src={mailIcon} className='mailIcon icons' alt="icone enveloppe" /></td>
                     <td><a href="mailto:delphine.thevenet@live.fr" className='mailContent'>delphine.thevenet@live.fr</a></td>
@@ -28,7 +28,7 @@ function Contact() {
                     <td><a href='https://www.linkedin.com/in/delphine-thevenet-66520a130/' target="_blank"  rel="noreferrer"className='linksContent'>Linkedin</a></td>
                 </tr>
 
-
+                </tbody>
             </table>
         </div >
 
