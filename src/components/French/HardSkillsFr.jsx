@@ -14,14 +14,14 @@ function HardSkillsFr() {
                     </li> <br />
                     <li> <a href="https://fabienchbd.github.io/ProjectQuizz/" target="_blank" rel="noreferrer" className="pQL"> Projet Quiz</a> </li></div> <br />
                 <li className="skill">Swift / SwiftUI</li> <br />
-                <li> Projet 1: Realisation d&apos;une application iphone, visant a aider les particuliers dans leur transition energetique</li>
+                <li className="projet1"> Projet 1: Realisation d&apos;une application iphone, visant a aider les particuliers dans leur transition energetique</li>
                 <div className="eSSection">
                 <li className="eSItemIcon"><img src="/EcoSwitchIcon.png" alt="icone app LocalEat" className="vidIcons"></img></li>
                     <li className="eSItemVid">
                         <EcoSwitchDemo width="200" height="600" className="EcoSwitchVid" />
 
                         </li></div><br/>
-                <li>Projet 2: Realisation d&apos;une application iphone, visant a aider les producteurs bio et locaux a rencontrer leurs clientele et mieux se remunerer. Aider les clients a trouver les producteurs pres de chez eux.</li>
+                <li className="projet2">Projet 2: Realisation d&apos;une application iphone, visant a aider les producteurs bio et locaux a rencontrer leurs clientele et mieux se remunerer. Aider les clients a trouver les producteurs pres de chez eux.</li>
                 <div className="lESection">
                     <li className="lEItemIcon"><img src="/LocalEatIcon.png" alt="icone app LocalEat" className="vidIcons"></img></li>
                     <li className="lEItemVid">

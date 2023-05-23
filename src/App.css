@@ -38,6 +38,11 @@ li {
   filter: drop-shadow(0 0 3em #BB4828);
 }
 
+.stage {
+  color:#040404c3
+}
+
+
 /* styling Sections Title*/
 .overline {
   display: block;

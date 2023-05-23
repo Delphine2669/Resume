@@ -9,6 +9,7 @@ function NavbarFr() {
                 <li><a href="#Languages">Langues</a></li>
                 <li><a href="#Hobbies">Intérêts</a></li>
                 <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Projet1"></a></li>
             </ul>
         </nav>
     );
