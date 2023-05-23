@@ -235,7 +235,7 @@ a:active.contactLinks {
 .workE-list {
   display: grid;
   grid-template-columns: 1fr 0.6fr;
-  grid-template-rows: repeat(3, 2fr);
+  grid-template-rows: repeat(3, 1.8fr);
   gap: 0px 0px;
   grid-template-areas:
     "slcContent slcDate"
@@ -246,10 +246,7 @@ a:active.contactLinks {
 
 .slcContent {
   grid-area: slcContent;
-
-
 }
-
 .slcDate {
   background-color: #280309;
   grid-area: slcDate;
@@ -295,6 +292,7 @@ a:active.contactLinks {
 
 .job-title {
   font-weight: bold;
+  font-size: large;
   text-align: left;
 }
 

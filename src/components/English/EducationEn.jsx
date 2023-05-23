@@ -17,26 +17,22 @@ function EducationEn() {
                     <li className="course">Apple Foundation Extended Program</li>
                     <li>Simplon Lille</li></div>
                 <li className="year afp">2022 (sept)</li>
-                <div className="couseBlock">
+                <div className="courseBlock">
                     <li className="course">Apple Foundation Program</li>
                     <li>Simplon Lyon</li></div>
                 <li className="year master">2017-2018</li>
-                <div className="couseBlock">
+                <div className="courseBlock">
                     <li className="course">1ere year Master English Studies</li>
                     <li >Universite Lumière Lyon II</li></div>
                 <li className="year llce">2017</li>
-                <div className="couseBlock">
-                    <li>
-                        <span className="course">BA English studies, Translation Literature and History
-                        </span>
-                        </li>
+                <div className="courseBlock">
+                    <li className="course">BA English studies, Translation Literature and History
+                      </li>
                     <li>Universite Grenoble Alpes</li></div>
                 <li className="year capa">2010</li>
-                <div className="couseBlock">
-                    <li >
-                        <span className="course">Certification in law &lsquo;capacite en droit&lsquo;</span>
-             </li>
-                    <span> Universite Lumière Lyon II</span>
+                <div className="courseBlock">
+                    <li className="course">Certification in law &lsquo;capacite en droit&lsquo;</li>
+                    <li> Universite Lumière Lyon II</li>
                     </div>
             </ul>
         </div>

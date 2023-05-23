@@ -3,7 +3,7 @@ function ButtonSwitch({french, english}) {
 
     return <>
         <div className="buttonLSwitch">
-            <button onClick={french} className="buttonFrench">French</button> <span></span><span></span>
+            <button onClick={french} className="buttonFrench">Francais</button> <span></span><span></span><span></span>
             <button onClick={english} className="buttonEnglish">English</button>
         </div>
     </>

@@ -10,22 +10,20 @@ function WorkExpEn() {
                     <li> Welcoming  </li>
                     <li>Checked identity of about 30 technicians on the daily basis. Verified if they were allowed on the premises depending on the schedule.</li>
                     <li>Gave or refused access to the entryway</li>
-                    <li></li>
+                    <li>Patroled the premises</li>
 
                 </div>
                 <li className="jobDate slcDate">2016-2017</li>
-
                 <div className="job-block cmeContent">
                     <li className="job-title ">Civil student contract</li>
                     <li className="subjob"> Hostessing</li>
-                    <li> Handling foods and drinks on mayoral yearly greetings (about 300 person for 5 hosts)
-                    </li>
+                    <li> Handling foods and drinks on mayoral yearly greetings (about 300 person for 5 hosts)</li>
                     <li>anticipated the need for food and drinks renewal</li>
 
                     <li className="subjob">Child daycare </li>
-                    <li>Taking care of kids aged from 3 to 5 , from 10 am to 5 pm</li>
+                    <li>Taking care of kids aged from 3 to 5 , from 9 am to 5 pm</li>
                     <li>Watch carefully, handling potty training incidents</li>
-                    <li> Helping them </li>
+                    <li>Helping them during lunchtime</li>
                 </div>
                 <li className="jobDate cmeDate">2016-2017</li>
                 <div className="job-block infoContent">
