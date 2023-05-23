@@ -6,11 +6,11 @@ function WorkExpEn() {
 
                 <div className="job-block slcContent">
 
-                    <li className="job-title"> &quot;Sur le champ&quot; music Festival - Controling backstage access </li>
-                    <li> Welcoming  </li>
+                    <li className="job-title"> &quot;Sur le champ&quot; music Festival - Controlling backstage access - Summer Job </li>
+                    <li> Welcoming the attendees and audience. </li>
                     <li>Checked identity of about 30 technicians on the daily basis. Verified if they were allowed on the premises depending on the schedule.</li>
                     <li>Gave or refused access to the entryway</li>
-                    <li>Patroled the premises</li>
+                    <li>Patrolled the premises</li>
 
                 </div>
                 <li className="jobDate slcDate">2016-2017</li>
@@ -21,7 +21,7 @@ function WorkExpEn() {
                     <li>anticipated the need for food and drinks renewal</li>
 
                     <li className="subjob">Child daycare </li>
-                    <li>Taking care of kids aged from 3 to 5 , from 9 am to 5 pm</li>
+                    <li>Taking care of kids (10) aged from 3 to 5 , from 9 am to 5 pm</li>
                     <li>Watch carefully, handling potty training incidents</li>
                     <li>Helping them during lunchtime</li>
                 </div>

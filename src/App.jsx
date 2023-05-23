@@ -41,7 +41,7 @@ function App() {
 
   const hobbiesListEn = {
     hobbies: "Hobbies",
-    photography: <a href='https://delphinethevenet.wordpress.com/portfolio-2/' target="_blank"rel="noreferrer">Enthusiast cityscape and landscape photographer for about 10 years</a>,
+    photography: <a href='https://delphinethevenet.wordpress.com/portfolio-2/' target="_blank"rel="noreferrer">Enthusiastic cityscape and landscape photographer for about 10 years</a>,
     travel: 'Hibernophile - wanderluster - Travels through Western Europe countries to experience cultural differences',
     america: "Fascinated by North American culture (history and lifestyle)",
     journalism: <a href='https://delphinethevenet.wordpress.com/articles/sparks-newspaper/sparks-newspaper/' target="_blank"rel="noreferrer">Written and published articles in a student-led newspaper</a>,
