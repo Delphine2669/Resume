@@ -27,6 +27,7 @@ li {
 .navBarUl {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .navBarUl a {
@@ -357,3 +358,12 @@ h3>a:hover{
 }
 
  }
+
+ @media screen and (min-width:600px) {
+.navBarUl{
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+  }
+ 
