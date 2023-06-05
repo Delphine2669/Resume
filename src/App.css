@@ -22,7 +22,14 @@
 li {
   list-style: none;
 }
+#Title > h1{
+  font-size:x-large;
+}
+#Title > h2{font-size: large;}
 
+#Title > h3{ font-size: larger;
+
+}
 /* format Navbar*/
 .navBarUl {
   display: flex;
@@ -75,12 +82,15 @@ li {
 
 .year {
   background-color: #ccc;
-  border-radius: 80px;
-  padding: 12px;
-  font-weight: 700;
+  border-radius: 40px;
+  padding: 7px;
+  height: 120px;
+  font-weight: 400;
   grid-row: 2fr;
   grid-column: 1fr;
-  color: aliceblue
+  color: aliceblue;
+  line-height: 2.9;
+
 }
 
 .encours {
@@ -327,6 +337,11 @@ a:active.contactLinks {
   filter: drop-shadow(0 0 2em #E89F3C);
   color: #e89f3c;
 }
+button{
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+}
+
 @media (prefers-color-scheme: dark) {
   #root{
 color:var(--darkthemetextcolor);
@@ -365,5 +380,10 @@ h3>a:hover{
   justify-content: space-evenly;
  
 }
+button{
+  padding: 0.6em 1.2em;
+}
+.year{border-radius: 80px;
+  padding: 12px;}
   }
  
