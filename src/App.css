@@ -4,6 +4,17 @@
   padding: 2rem;
   text-align: center;
   color: #000000cf;
+
+  --darkthemetextcolor:rgb(213, 205, 191);
+  --lighttheme2:#E89F3C;
+  --lighttheme1:#F9D604;
+  --lighttheme3:#BB4828;
+  --lighttheme4:#600917;
+  --lighttheme5:#280309;
+  --darktextcolor:#181818bb;
+  --darkthemelinkcolor:#E89F3C;
+  --darkthemelinkhover:#BB4828;
+  --darkthemeemtextcolor:rgb(249, 246, 240);
 }
 
 
@@ -315,3 +326,34 @@ a:active.contactLinks {
   filter: drop-shadow(0 0 2em #E89F3C);
   color: #e89f3c;
 }
+@media (prefers-color-scheme: dark) {
+  #root{
+color:var(--darkthemetextcolor);
+
+  }
+.hobbiesUl a,
+.HSUl a,
+.contactTable a,
+.navBarUl a,
+h3>a{
+   color:var(--darkthemelinkcolor);
+}
+
+.hobbiesUl a:hover,
+.HSUl a:hover,
+.contactTable a:hover,
+.navBarUl a:hover,
+h3>a:hover{
+   color:var(--darkthemelinkhover);
+}
+.stage{
+  color:var(--darkthemeemtextcolor);
+}
+.nav-bar a{
+  color:var(--lighttheme1);
+}
+.nav-bar a:hover{
+  color:var(--darkthemelinkhover);
+}
+
+ }
