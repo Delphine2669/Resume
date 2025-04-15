@@ -84,7 +84,7 @@ function App() {
     ),
   };
   return (
-    <>
+    <div className="cv-container resume-container">
       {language === "fr" ? (
         <>
           <NavbarFr />
@@ -110,7 +110,7 @@ function App() {
           <NavbarFr />
         </>
       ) : (
-        <>
+        <div>
           <NavbarEn />
           <br />
           <ButtonSwitch
@@ -133,9 +133,9 @@ function App() {
           />
           <br /> <br />
           <NavbarEn />
-        </>
+        </div>
       )}
-    </>
+    </div>
   );
 }
 

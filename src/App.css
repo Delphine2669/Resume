@@ -3,8 +3,30 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  color: #000000cf;
 
+  --darkthemetextcolor: rgb(213, 205, 191);
+  --lighttheme2: #e89f3c;
+  --lighttheme1: #f9d604;
+  --lighttheme3: #bb4828;
+  --lighttheme4: #600917;
+  --lighttheme5: #280309;
+  --darktextcolor: #181818bb;
+  --darkthemelinkcolor: #e89f3c;
+  --darkthemelinkhover: #bb4828;
+  --darkthemeemtextcolor: rgb(249, 246, 240);
+  --dp-blue: #1d1a39;
+  --dp-purple: #451952;
+  --dp-wine: #662549;
+  --dp-orange: #f39f5a;
+  --dp-orange-hover: #f39f5abf;
+  --dp-pink: #e8bcb9;
+  --lp-eggplant: #190019;
+  --lp-violet: #240a34;
+  --lp-purple: #522b5b;
+  --lp-pink: #854f6c;
+  --lp-yellow: #f5d990;
+  --lp-yellow-hover: #f5d890b5;
+  --lp-white: #fbe4d8;
   /* taking bullet out*/
   li {
     list-style: none;
@@ -24,15 +46,6 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-  }
-
-  .navBarUl a {
-    color: #280309;
-  }
-
-  .navBarUl a:hover {
-    color: #e89f3c;
-    filter: drop-shadow(0em 0 5em #e89f3c);
   }
 
   .buttonFrench,
@@ -189,15 +202,6 @@ a:active.contactLinks {
     font-weight: bold;
   }
 
-  .HSUl a {
-    color: #600917;
-  }
-
-  .HSUl a:hover {
-    filter: drop-shadow(0 0 2em #e89f3c);
-    color: #e89f3c;
-  }
-
   /*
 
 .HCS:hover .dDSection {
@@ -296,21 +300,41 @@ a:active.contactLinks {
   }
 
   /*End frmatting Work experience*/
-  .hobbiesUl a {
-    color: #600917;
-  }
+}
+.cv-container,
+.resume-container {
+  color: #000000cf;
+  background-color: #f9f9f9;
+}
+.HSUl a {
+  color: #600917;
+}
 
-  .hobbiesUl a:hover {
-    filter: drop-shadow(0 0 2em #e89f3c);
-    color: #e89f3c;
-  }
+.HSUl a:hover {
+  filter: drop-shadow(0 0 2em #e89f3c);
+  color: #e89f3c;
+}
+.hobbiesUl a {
+  color: #600917;
+}
 
-  .contactTable a {
-    color: #600917;
-  }
+.hobbiesUl a:hover {
+  filter: drop-shadow(0 0 2em #e89f3c);
+  color: #e89f3c;
+}
+.contactTable a {
+  color: #600917;
+}
 
-  .contactTable a:hover {
-    filter: drop-shadow(0 0 2em #e89f3c);
-    color: #e89f3c;
-  }
+.contactTable a:hover {
+  filter: drop-shadow(0 0 2em #e89f3c);
+  color: #e89f3c;
+}
+.navBarUl a {
+  color: #280309;
+}
+
+.navBarUl a:hover {
+  color: #e89f3c;
+  filter: drop-shadow(0em 0 5em #e89f3c);
 }
