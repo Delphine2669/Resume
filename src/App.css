@@ -5,141 +5,124 @@
   text-align: center;
   color: #000000cf;
 
-  --darkthemetextcolor: rgb(213, 205, 191);
-  --lighttheme2: #e89f3c;
-  --lighttheme1: #f9d604;
-  --lighttheme3: #bb4828;
-  --lighttheme4: #600917;
-  --lighttheme5: #280309;
-  --darktextcolor: #181818bb;
-  --darkthemelinkcolor: #e89f3c;
-  --darkthemelinkhover: #bb4828;
-  --darkthemeemtextcolor: rgb(249, 246, 240);
-}
+  /* taking bullet out*/
+  li {
+    list-style: none;
+  }
+  #Title > h1 {
+    font-size: x-large;
+  }
+  #Title > h2 {
+    font-size: large;
+  }
 
-/* taking bullet out*/
-li {
-  list-style: none;
-}
-#Title > h1 {
-  font-size: x-large;
-}
-#Title > h2 {
-  font-size: large;
-}
+  #Title > h3 {
+    font-size: larger;
+  }
+  /* format Navbar*/
+  .navBarUl {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 
-#Title > h3 {
-  font-size: larger;
-}
-/* format Navbar*/
-.navBarUl {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
+  .navBarUl a {
+    color: #280309;
+  }
 
-.navBarUl a {
-  color: #280309;
-}
+  .navBarUl a:hover {
+    color: #e89f3c;
+    filter: drop-shadow(0em 0 5em #e89f3c);
+  }
 
-.navBarUl a:hover {
-  color: #e89f3c;
-  filter: drop-shadow(0em 0 5em #e89f3c);
-}
+  .buttonFrench,
+  .buttonEnglish {
+    background-color: #e89f3c;
+  }
 
-.buttonFrench,
-.buttonEnglish {
-  background-color: #e89f3c;
-}
+  .buttonEnglish:hover,
+  .buttonFrench:hover {
+    background-color: #bb4828;
+    filter: drop-shadow(0 0 3em #bb4828);
+  }
 
-.buttonEnglish:hover,
-.buttonFrench:hover {
-  background-color: #bb4828;
-  filter: drop-shadow(0 0 3em #bb4828);
-}
+  /* styling Sections Title*/
+  .overline {
+    display: block;
+    border-top: 2px dotted rgb(0, 224, 224);
+    border-bottom: 2px dotted rgb(0, 224, 224);
+    padding: 1px;
+    margin-top: 0;
+  }
 
-.stage {
-  color: #040404c3;
-}
+  /* formatting Educ section*/
+  .education-list {
+    display: grid;
+    grid-template-columns: 0.9fr 2.2fr;
+    grid-template-rows: repeat(6, 0.4fr);
+    grid-gap: 20px;
+  }
 
-/* styling Sections Title*/
-.overline {
-  display: block;
-  border-top: 2px dotted rgb(0, 224, 224);
-  border-bottom: 2px dotted rgb(0, 224, 224);
-  padding: 1px;
-  margin-top: 0;
-}
+  .year {
+    background-color: #ccc;
+    border-radius: 40px;
+    padding: 7px;
+    height: 3dvh;
+    max-width: 40%;
+    font-weight: 400;
+    grid-row: 2fr;
+    grid-column: 1fr;
+    color: aliceblue;
+  }
 
-/* formatting Educ section*/
-.education-list {
-  display: grid;
-  grid-template-columns: 0.9fr 2.2fr;
-  grid-template-rows: repeat(6, 0.4fr);
-  grid-gap: 20px;
-}
+  .encours {
+    background-color: #280309;
+  }
 
-.year {
-  background-color: #ccc;
-  border-radius: 40px;
-  padding: 7px;
-  height: 3dvh;
-  max-width: 40%;
-  font-weight: 400;
-  grid-row: 2fr;
-  grid-column: 1fr;
-  color: aliceblue;
-  line-height: 2.2;
-}
+  .afpE {
+    background-color: #600917;
+  }
 
-.encours {
-  background-color: #280309;
-}
+  .afp {
+    background-color: #600917;
+  }
 
-.afpE {
-  background-color: #600917;
-}
+  .master {
+    background-color: #bb4828;
+  }
 
-.afp {
-  background-color: #600917;
-}
+  .llce {
+    background-color: #e89f3c;
+  }
 
-.master {
-  background-color: #bb4828;
-}
+  .capa {
+    background-color: #f9d604;
+    color: rgba(41, 37, 19, 0.924);
+  }
 
-.llce {
-  background-color: #e89f3c;
-}
+  .course {
+    font-weight: 700;
+    text-align: left;
+    /* margin-left: 2rem; */
+  }
 
-.capa {
-  background-color: #f9d604;
-  color: rgba(41, 37, 19, 0.924);
-}
+  .courseBlock {
+    grid-row: 1fr;
+  }
 
-.course {
-  font-weight: 700;
-  text-align: left;
-  /* margin-left: 2rem; */
-}
+  /* End of Formattings Educ Section*/
 
-.courseBlock {
-  grid-row: 1fr;
-}
+  /* Formatting contact Section*/
 
-/* End of Formattings Educ Section*/
+  .contactTable {
+    margin: auto;
+  }
 
-/* Formatting contact Section*/
+  .icons {
+    max-width: 30%;
+  }
 
-.contactTable {
-  margin: auto;
-}
-
-.icons {
-  max-width: 30%;
-}
-
-/* a:hover.contactLinks {
+  /* a:hover.contactLinks {
   color: #BB4828
 }
 
@@ -147,75 +130,75 @@ a:active.contactLinks {
   color: #F9D604
 } */
 
-/* End of formatting contact Section*/
+  /* End of formatting contact Section*/
 
-/* Formatting languages Section*/
-.languagesList {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  /* Formatting languages Section*/
+  .languagesList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.langListli {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-size: larger;
-}
+  .langListli {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: larger;
+  }
 
-.squareRow {
-  border-radius: 10px;
-}
+  .squareRow {
+    border-radius: 10px;
+  }
 
-.square1 {
-  background-color: #fff5bd;
-}
+  .square1 {
+    background-color: #fff5bd;
+  }
 
-.square2 {
-  background-color: #f9d604;
-}
+  .square2 {
+    background-color: #f9d604;
+  }
 
-.square3 {
-  background-color: #e89f3c;
-}
+  .square3 {
+    background-color: #e89f3c;
+  }
 
-.square4 {
-  background-color: #bb4828;
-}
+  .square4 {
+    background-color: #bb4828;
+  }
 
-.square5 {
-  background-color: #600917;
-}
+  .square5 {
+    background-color: #600917;
+  }
 
-.square1,
-.square2,
-.square3,
-.square4,
-.square5 {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: -10px;
-  border: 1.3px dotted #280309;
-  border-radius: 2.5px;
-  margin-left: 10px;
-}
+  .square1,
+  .square2,
+  .square3,
+  .square4,
+  .square5 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: -10px;
+    border: 1.3px dotted #280309;
+    border-radius: 2.5px;
+    margin-left: 10px;
+  }
 
-/*Formatting HardSkills */
-.skill {
-  font-weight: bold;
-}
+  /*Formatting HardSkills */
+  .skill {
+    font-weight: bold;
+  }
 
-.HSUl a {
-  color: #600917;
-}
+  .HSUl a {
+    color: #600917;
+  }
 
-.HSUl a:hover {
-  filter: drop-shadow(0 0 2em #e89f3c);
-  color: #e89f3c;
-}
+  .HSUl a:hover {
+    filter: drop-shadow(0 0 2em #e89f3c);
+    color: #e89f3c;
+  }
 
-/*
+  /*
 
 .HCS:hover .dDSection {
   display: block;
@@ -224,157 +207,110 @@ a:active.contactLinks {
 
 
 */
-.eSSection {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.eSItemIcon {
-  max-width: 30%;
-  margin-top: 180px;
-}
-.lESection {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.lEItemIcon {
-  max-width: 30%;
-  margin-top: 180px;
-}
-
-.vidIcons {
-  max-width: 60%;
-  margin-top: 180px;
-}
-/*end Formatting HardSkills*/
-
-/*Formatting Work experience*/
-
-.workE-list {
-  display: grid;
-  grid-template-columns: 1fr 0.6fr;
-  grid-template-rows: repeat(3, 1.8fr);
-  gap: 0px 0px;
-  grid-template-areas:
-    "slcContent slcDate"
-    "cmeContent cmeDate"
-    "infoContent infoDate";
-}
-
-.slcContent {
-  grid-area: slcContent;
-}
-.slcDate {
-  background-color: #280309;
-  grid-area: slcDate;
-}
-
-.cmeContent {
-  grid-area: cmeContent;
-}
-
-.cmeDate {
-  background-color: #600917;
-  grid-area: cmeDate;
-}
-
-.infoContent {
-  grid-area: infoContent;
-}
-
-.infoDate {
-  background-color: #bb4828;
-  grid-area: infoDate;
-}
-
-.jobDate {
-  color: aliceblue;
-  font-weight: 700;
-  border-radius: 40px;
-  padding: 12px;
-  margin: auto;
-}
-
-.subjob {
-  font-weight: 600;
-  margin-left: 20px;
-}
-
-.titleJobName {
-  text-align: right;
-  font-size: large;
-}
-
-.job-title {
-  font-weight: bold;
-  font-size: large;
-  text-align: left;
-}
-
-/*End frmatting Work experience*/
-.hobbiesUl a {
-  color: #600917;
-}
-
-.hobbiesUl a:hover {
-  filter: drop-shadow(0 0 2em #e89f3c);
-  color: #e89f3c;
-}
-
-.contactTable a {
-  color: #600917;
-}
-
-.contactTable a:hover {
-  filter: drop-shadow(0 0 2em #e89f3c);
-  color: #e89f3c;
-}
-button {
-  padding: 0.2em 0.5em;
-  border-radius: 5px;
-}
-
-@media (prefers-color-scheme: dark) {
-  #root {
-    color: var(--darkthemetextcolor);
-  }
-  .hobbiesUl a,
-  .HSUl a,
-  .contactTable a,
-  .navBarUl a,
-  h3 > a {
-    color: var(--darkthemelinkcolor);
-  }
-
-  .hobbiesUl a:hover,
-  .HSUl a:hover,
-  .contactTable a:hover,
-  .navBarUl a:hover,
-  h3 > a:hover {
-    color: var(--darkthemelinkhover);
-  }
-  .stage {
-    color: var(--darkthemeemtextcolor);
-  }
-  .nav-bar a {
-    color: var(--lighttheme1);
-  }
-  .nav-bar a:hover {
-    color: var(--darkthemelinkhover);
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .navBarUl {
+  .eSSection {
     display: flex;
     justify-content: space-evenly;
   }
-  button {
-    padding: 0.6em 1.2em;
+
+  .eSItemIcon {
+    max-width: 30%;
+    margin-top: 180px;
   }
-  .year {
-    border-radius: 80px;
+  .lESection {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .lEItemIcon {
+    max-width: 30%;
+    margin-top: 180px;
+  }
+
+  .vidIcons {
+    max-width: 60%;
+    margin-top: 180px;
+  }
+  /*end Formatting HardSkills*/
+
+  /*Formatting Work experience*/
+
+  .workE-list {
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+    grid-template-rows: repeat(3, 1.8fr);
+    gap: 0px 0px;
+    grid-template-areas:
+      "slcContent slcDate"
+      "cmeContent cmeDate"
+      "infoContent infoDate";
+  }
+
+  .slcContent {
+    grid-area: slcContent;
+  }
+  .slcDate {
+    background-color: #280309;
+    grid-area: slcDate;
+  }
+
+  .cmeContent {
+    grid-area: cmeContent;
+  }
+
+  .cmeDate {
+    background-color: #600917;
+    grid-area: cmeDate;
+  }
+
+  .infoContent {
+    grid-area: infoContent;
+  }
+
+  .infoDate {
+    background-color: #bb4828;
+    grid-area: infoDate;
+  }
+
+  .jobDate {
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 40px;
     padding: 12px;
+    margin: auto;
+  }
+
+  .subjob {
+    font-weight: 600;
+    margin-left: 20px;
+  }
+
+  .titleJobName {
+    text-align: center;
+    font-size: large;
+  }
+
+  .job-title {
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+  }
+
+  /*End frmatting Work experience*/
+  .hobbiesUl a {
+    color: #600917;
+  }
+
+  .hobbiesUl a:hover {
+    filter: drop-shadow(0 0 2em #e89f3c);
+    color: #e89f3c;
+  }
+
+  .contactTable a {
+    color: #600917;
+  }
+
+  .contactTable a:hover {
+    filter: drop-shadow(0 0 2em #e89f3c);
+    color: #e89f3c;
   }
 }
